@@ -13,7 +13,7 @@ luarocks install table_dump
 or
 
 ```bash
-luarocks install https://raw.githubusercontent.com/suikabreaker/table_dump/master/table_dump-1.0-1.rockspec
+luarocks install https://raw.githubusercontent.com/suikabreaker/lua-table-dump/master/table_dump-1.0-1.rockspec
 ```
 
 ## Usage
