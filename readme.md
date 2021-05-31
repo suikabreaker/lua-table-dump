@@ -4,7 +4,7 @@ A function to dump a lua table in proper format.
 
 ## Installation
 
-It has no dependence, but require LuaJIT to run.
+The module has no dependence.
 
 ```bash
 luarocks install https://raw.githubusercontent.com/suikabreaker/table_dump/master/table_dump-1.0-1.rockspec
