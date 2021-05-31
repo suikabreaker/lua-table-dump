@@ -7,6 +7,12 @@ A function to dump a lua table in proper format.
 The module has no dependence.
 
 ```bash
+luarocks install table_dump
+```
+
+or
+
+```bash
 luarocks install https://raw.githubusercontent.com/suikabreaker/table_dump/master/table_dump-1.0-1.rockspec
 ```
 
