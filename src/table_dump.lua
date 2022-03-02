@@ -37,7 +37,8 @@ local function table_dump_(value, indent, current_indent, try_tostring, done)
                                     string.rep(" ", current_indent + indent),
                                     keyRep, table_dump_(value[key], indent,
                                                         current_indent + indent,
-                                                        done), comma, linefeed)
+                                                        try_tostring, done), 
+                                                        comma, linefeed)
         end
 
         rep = rep .. string.rep(" ", current_indent) -- indent it
